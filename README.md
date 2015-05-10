@@ -1,6 +1,6 @@
 # SuperPOCO
 
-Store Plain Old CLR objects in Azure Table Storage with no dependency on the object model.
+SuperPOCO allows you to write pure C# objects which you can use to write/read from table storage without adding the Azure Table Storage SDK dependency to your object model.
 
 ## Installation
 
