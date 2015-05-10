@@ -72,6 +72,7 @@ public static class UserExtensions
     return EntityConverter.ConvertTo<MyUser>( (DynamicTableEntity)execute.Result);
   }
 }
+```
 
 ##### Complex Values
 
@@ -80,8 +81,6 @@ There is no support for complex values or arrays other than for binary `byte[]`
 ##### Ignoring Properties
 
 You can easily ignore a value using the [JsonIgnore] type annotation .. allowing you to leverage the same object that you would use for json serialization
-
-```
 
 ### License
 
